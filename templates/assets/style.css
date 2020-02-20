@@ -1,0 +1,39 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.employee {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 5px solid lightblue;
+    background-color: lightslategray;
+    /* margin: auto; */
+    
+}
+
+@media(max-width: 700px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 500px) {
+    main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
