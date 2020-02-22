@@ -7,10 +7,12 @@ The App runs by first asking how many members are on your team. Once answered, t
 
 For each member, choose between Manager, Engineer, or Intern. The app dynamically appends html to the file based on what was entered. After info has been entered for all members, the app will button the ending HTML on the end.
 
+### Deployed Website
 ![](templates/assets/website.gif)
 
 Once the app is done, simply launch the HTML in your default browser. You can see the simple website is dynamic and mobile-friendly. It will link to team member E-mails and GitHub profiles, granted the emails and profiles are real. 
 
+### Tests.js
 ![](templates/assets/tests.gif)
 
 Running the tests, all you need to do is enter the pre-determined prompts to pass. The engineer.js, manager.js, and intern.js tests also pass inheriting "employee.js" as their superclass. 
