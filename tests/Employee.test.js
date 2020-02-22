@@ -20,7 +20,7 @@ describe("Employee", () => {
         it("takes user prompt to establish job role", async () => {
             //User chooses job role - choose any role to pass test.
             const obj = await new Employee().getId();
-            expect(obj.id).toEqual(["Manager", "Intern", "Engineer"]);
+            expect(obj.id).toEqual("Manager");
         });
     });
     describe("getEmail", () => {
