@@ -1,0 +1,64 @@
+a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(218, 233, 252);
+}
+
+.employee {
+    background-color: white;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    
+}
+
+h1 {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 25px 0px;
+    margin-top: -5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+.title {
+    background-color: lightslategray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 0px;
+    
+}
+
+@media(max-width: 850px) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 550px) {
+    main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
